@@ -1,0 +1,75 @@
+Job 3361763.d15n41.ccr.buffalo.edu has requested 12 cores/processors per node.
+working directory = /user/ruhansa/GPU
+ 
+ msize: 100	 tilewidth: 20	 task: 2	 timeElapsed: 3.910000
+ 
+ msize: 100	 tilewidth: 20	 task: 5	 timeElapsed: 3.580000
+ 
+ msize: 100	 tilewidth: 20	 task: 10	 timeElapsed: 2.740000
+ 
+ msize: 100	 tilewidth: 30	 task: 2	 timeElapsed: 2.460000
+ 
+ msize: 100	 tilewidth: 30	 task: 5	 timeElapsed: 2.820000
+ 
+ msize: 100	 tilewidth: 30	 task: 10	 timeElapsed: 2.820000
+ 
+ msize: 100	 tilewidth: 50	 task: 2	 timeElapsed: 2.590000
+ 
+ msize: 100	 tilewidth: 50	 task: 5	 timeElapsed: 2.420000
+ 
+ msize: 100	 tilewidth: 50	 task: 10	 timeElapsed: 3.000000
+ 
+ msize: 100	 tilewidth: 100	 task: 2	 timeElapsed: 2.560000
+ 
+ msize: 100	 tilewidth: 100	 task: 5	 timeElapsed: 3.280000
+ 
+ msize: 100	 tilewidth: 100	 task: 10	 timeElapsed: 2.790000
+ 
+ msize: 1000	 tilewidth: 20	 task: 2	 timeElapsed: 6.830000
+ 
+ msize: 1000	 tilewidth: 20	 task: 5	 timeElapsed: 7.320000
+ 
+ msize: 1000	 tilewidth: 20	 task: 10	 timeElapsed: 6.620000
+ 
+ msize: 1000	 tilewidth: 30	 task: 2	 timeElapsed: 7.530000
+ 
+ msize: 1000	 tilewidth: 30	 task: 5	 timeElapsed: 7.340000
+ 
+ msize: 1000	 tilewidth: 30	 task: 10	 timeElapsed: 5.800000
+ 
+ msize: 1000	 tilewidth: 50	 task: 2	 timeElapsed: 6.600000
+ 
+ msize: 1000	 tilewidth: 50	 task: 5	 timeElapsed: 7.330000
+ 
+ msize: 1000	 tilewidth: 50	 task: 10	 timeElapsed: 6.800000
+ 
+ msize: 1000	 tilewidth: 100	 task: 2	 timeElapsed: 7.530000
+ 
+ msize: 1000	 tilewidth: 100	 task: 5	 timeElapsed: 7.510000
+ 
+ msize: 1000	 tilewidth: 100	 task: 10	 timeElapsed: 7.510000
+ 
+ msize: 5000	 tilewidth: 20	 task: 2	 timeElapsed: 88.780000
+ 
+ msize: 5000	 tilewidth: 20	 task: 5	 timeElapsed: 89.030000
+ 
+ msize: 5000	 tilewidth: 20	 task: 10	 timeElapsed: 88.990000
+ 
+ msize: 5000	 tilewidth: 30	 task: 2	 timeElapsed: 88.750000
+ 
+ msize: 5000	 tilewidth: 30	 task: 5	 timeElapsed: 89.050000
+ 
+ msize: 5000	 tilewidth: 30	 task: 10	 timeElapsed: 88.990000
+ 
+ msize: 5000	 tilewidth: 50	 task: 2	 timeElapsed: 88.580000
+ 
+ msize: 5000	 tilewidth: 50	 task: 5	 timeElapsed: 88.900000
+ 
+ msize: 5000	 tilewidth: 50	 task: 10	 timeElapsed: 89.100000
+ 
+ msize: 5000	 tilewidth: 100	 task: 2	 timeElapsed: 88.970000
+ 
+ msize: 5000	 tilewidth: 100	 task: 5	 timeElapsed: 89.010000
+ 
+ msize: 5000	 tilewidth: 100	 task: 10	 timeElapsed: 88.710000
+All Done!

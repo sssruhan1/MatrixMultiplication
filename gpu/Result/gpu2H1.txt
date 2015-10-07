@@ -1,0 +1,19 @@
+Job 3354783.d15n41.ccr.buffalo.edu has requested 12 cores/processors per node.
+working directory = /user/ruhansa/GPU
+
+ ================= MO HA HA : ) ====================
+
+ msize: 10000	 tilewidth: 2	 time elapsed: 1450.810000
+
+ ================= MO HA HA : ) ====================
+
+ msize: 10000	 tilewidth: 5	 time elapsed: 522.980000
+
+ ================= MO HA HA : ) ====================
+
+ msize: 10000	 tilewidth: 10	 time elapsed: 415.840000
+
+ ================= MO HA HA : ) ====================
+
+ msize: 10000	 tilewidth: 20	 time elapsed: 385.950000
+=>> PBS: job killed: walltime 7213 exceeded limit 7200

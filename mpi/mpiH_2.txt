@@ -1,0 +1,68 @@
+Job 3355283.d15n41.ccr.buffalo.edu has requested 8 cores/processors per node.
+working directory = /user/ruhansa/MPI
+Currently Loaded Modulefiles:
+  1) null                  3) java/j2sdk/1.6.0_16   5) intel-mpi/4.0
+  2) modules               4) intel/11.1
+/util/intel/impi/4.0.0.025/intel64/bin/mpiexec
+running mpdallexit on d09n36a
+LAUNCHED mpd on d09n36a  via  
+RUNNING: mpd on d09n36a
+LAUNCHED mpd on d09n35b  via  d09n36a
+LAUNCHED mpd on d09n29a  via  d09n36a
+LAUNCHED mpd on d16n05  via  d09n36a
+LAUNCHED mpd on d14n11  via  d09n36a
+RUNNING: mpd on d09n35b
+LAUNCHED mpd on d13n24  via  d09n35b
+LAUNCHED mpd on d13n07  via  d09n35b
+LAUNCHED mpd on d13n05  via  d09n35b
+RUNNING: mpd on d09n29a
+RUNNING: mpd on d14n11
+RUNNING: mpd on d13n24
+RUNNING: mpd on d13n07
+RUNNING: mpd on d13n05
+RUNNING: mpd on d16n05
+d09n36a
+d16n05
+d14n11
+d09n29a
+d09n35b
+d13n05
+d13n07
+d13n24
+
+ 20 processors 9000 msize time elapsed: 1564.370000
+
+ 20 processors 10000 msize time elapsed: 2151.630000
+rank 0 in job 3  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 4  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 5  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 6  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+
+ 32 processors 9000 msize time elapsed: 1077.060000
+
+ 32 processors 10000 msize time elapsed: 1530.750000
+rank 0 in job 9  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 10  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 11  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 12  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+
+ 64 processors 9000 msize time elapsed: 841.560000
+rank 0 in job 14  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 15  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 x
+rank 0 in job 16  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 17  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+rank 0 in job 18  d09n36a_59466   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+All Done!

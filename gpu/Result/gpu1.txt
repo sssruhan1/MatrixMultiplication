@@ -1,0 +1,36 @@
+Job 3354525.d15n41.ccr.buffalo.edu has requested 12 cores/processors per node.
+working directory = /user/ruhansa/GPU
+
+ ==============Verifying===================
+
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+10 10 10 10 10 10 10 10 10 10 
+
+=========================Finally! You got it! BIG :-) =============================
+
+ msize: 10 
+ TIME ELAPSED : 4.240000 
+
+ msize: 1000 
+ TIME ELAPSED : 7.000000 
+
+ msize: 3000 
+ TIME ELAPSED : 33.680000 
+
+ msize: 5000 
+ TIME ELAPSED : 89.820000 
+
+ msize: 7000 
+ TIME ELAPSED : 170.720000 
+
+ msize: 9000 
+ TIME ELAPSED : 281.650000 
+All Done!

@@ -1,0 +1,18 @@
+Job 3355224.d15n41.ccr.buffalo.edu has requested 12 cores/processors per node.
+working directory = /user/ruhansa/GPU
+
+ msize: 10000 
+ TIME ELAPSED : 343.590000 
+
+ msize: 15000 
+ TIME ELAPSED : 772.010000 
+
+ msize: 20000 
+ TIME ELAPSED : 1368.070000 
+
+ msize: 25000 
+ TIME ELAPSED : 2136.570000 
+
+ msize: 30000 
+ TIME ELAPSED : 3074.380000 
+All Done!

@@ -1,0 +1,8 @@
+Job 3355988.d15n41.ccr.buffalo.edu has requested 12 cores/processors per node.
+working directory = /user/ruhansa/GPU
+
+ msize: 30000 
+ TIME ELAPSED : 3075.520000 
+/var/spool/pbs/mom_priv/jobs/3355988.d15n41.ccr.buffalo.edu.SC: line 16: 27379 Segmentation fault      (core dumped) ./gpu1 $m
+/var/spool/pbs/mom_priv/jobs/3355988.d15n41.ccr.buffalo.edu.SC: line 16: 27382 Segmentation fault      (core dumped) ./gpu1 $m
+All Done!

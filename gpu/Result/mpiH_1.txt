@@ -1,0 +1,38 @@
+Job 3354612.d15n41.ccr.buffalo.edu has requested 8 cores/processors per node.
+working directory = /user/ruhansa/MPI
+Currently Loaded Modulefiles:
+  1) null                  3) java/j2sdk/1.6.0_16   5) intel-mpi/4.0
+  2) modules               4) intel/11.1
+/util/intel/impi/4.0.0.025/intel64/bin/mpiexec
+running mpdallexit on d09n28a
+LAUNCHED mpd on d09n28a  via  
+RUNNING: mpd on d09n28a
+LAUNCHED mpd on d09n27b  via  d09n28a
+LAUNCHED mpd on d09n27a  via  d09n28a
+LAUNCHED mpd on d09n26b  via  d09n28a
+LAUNCHED mpd on d07n30b  via  d09n28a
+RUNNING: mpd on d07n30b
+LAUNCHED mpd on d14n11  via  d07n30b
+LAUNCHED mpd on d14n09  via  d07n30b
+LAUNCHED mpd on d13n07  via  d07n30b
+RUNNING: mpd on d09n27b
+RUNNING: mpd on d09n27a
+RUNNING: mpd on d09n26b
+RUNNING: mpd on d14n11
+RUNNING: mpd on d14n09
+RUNNING: mpd on d13n07
+d09n28a
+d09n26b
+d09n27a
+d09n27b
+d07n30b
+d13n07
+d14n09
+d14n11
+
+ 20 processors 9000 msize time elapsed: 1535.500000
+
+ 20 processors 10000 msize time elapsed: 1915.670000
+rank 0 in job 3  d09n28a_35454   caused collective abort of all ranks
+  exit status of rank 0: killed by signal 11 
+=>> PBS: job killed: walltime 7226 exceeded limit 7200

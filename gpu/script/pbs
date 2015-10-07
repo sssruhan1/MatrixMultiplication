@@ -1,0 +1,36 @@
+#!/bin/bash
+#PBS -l walltime=24:00:00
+#PBS -l nodes=8:IB2:ppn=8
+#PBS -M ruhansa@buffalo.edu
+#PBS -m e
+#PBS -N mpi
+#PBS -o mp1H.txt
+#PBS -j oe
+##PBS -q debug 
+#
+#
+cd $PBS_O_WORKDIR
+echo "working directory = "$PBS_O_WORKDIR
+. $MODULESHOME/init/sh
+module load intel-mpi/4.0
+module list
+ulimit -s unlimited
+
+which mpiexec
+UNIQ_HOSTS=hosts.$$
+cat $PBS_NODEFILE | uniq > $UNIQ_HOSTS
+NNuniq=`cat $UNIQ_HOSTS | wc -l`
+NPROCS=`cat $PBS_NODEFILE | wc -l`
+mpdboot -n $NNuniq -f $UNIQ_HOSTS -r /usr/bin/ssh -v
+mpdtrace
+
+for i in 20 32 64
+do
+for j in 15000 20000 25000 30000
+do
+mpiexec -np $i $(echo ./mpi $j)
+done
+done
+
+mpdallexit
+echo "All Done!"

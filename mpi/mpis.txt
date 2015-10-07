@@ -1,0 +1,67 @@
+Job 3286042.d15n41.ccr.buffalo.edu has requested 8 cores/processors per node.
+working directory = /user/ruhansa/MPI
+Currently Loaded Modulefiles:
+  1) null              2) modules           3) intel-mpi/4.0.3
+/util/intel/impi/4.0.3.008/intel64/bin/mpiexec
+running mpdallexit on d07n15b
+LAUNCHED mpd on d07n15b  via  
+RUNNING: mpd on d07n15b
+LAUNCHED mpd on d07n15a  via  d07n15b
+LAUNCHED mpd on d07n13b  via  d07n15b
+LAUNCHED mpd on d07n11a  via  d07n15b
+RUNNING: mpd on d07n11a
+RUNNING: mpd on d07n15a
+RUNNING: mpd on d07n13b
+d07n15b
+d07n13b
+d07n15a
+d07n11a
+
+ 2 processors 100 msize time elapsed: 0.050000
+
+ 2 processors 1000 msize time elapsed: 11.520000
+
+ 2 processors 5000 msize time elapsed: 1434.240000
+
+ 4 processors 100 msize time elapsed: 0.040000
+
+ 4 processors 1000 msize time elapsed: 7.940000
+
+ 4 processors 5000 msize time elapsed: 815.130000
+
+ 6 processors 100 msize time elapsed: 0.040000
+
+ 6 processors 1000 msize time elapsed: 7.040000
+
+ 6 processors 5000 msize time elapsed: 592.450000
+
+ 8 processors 100 msize time elapsed: 0.040000
+
+ 8 processors 1000 msize time elapsed: 6.500000
+
+ 8 processors 5000 msize time elapsed: 474.330000
+
+ 10 processors 100 msize time elapsed: 0.060000
+
+ 10 processors 1000 msize time elapsed: 6.120000
+
+ 10 processors 5000 msize time elapsed: 401.350000
+
+ 12 processors 100 msize time elapsed: 0.050000
+
+ 12 processors 1000 msize time elapsed: 5.870000
+
+ 12 processors 5000 msize time elapsed: 352.590000
+
+ 15 processors 100 msize time elapsed: 0.060000
+
+ 15 processors 1000 msize time elapsed: 5.670000
+
+ 15 processors 5000 msize time elapsed: 303.590000
+
+ 20 processors 100 msize time elapsed: 0.050000
+
+ 20 processors 1000 msize time elapsed: 5.280000
+
+ 20 processors 5000 msize time elapsed: 255.430000
+=>> PBS: job killed: walltime 7207 exceeded limit 7200
